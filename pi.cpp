@@ -15,7 +15,7 @@
 using namespace std;
 
 // Number of times to generate random points inside the square. Higher the number, we can be more confident about the result
-// (But runtime increases)
+// (But runtime increases tenfold with each zero added to the number of samples)
 #define samples 1000000000
 
 int main(void) {
